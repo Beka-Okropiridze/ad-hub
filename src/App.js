@@ -1,4 +1,3 @@
-import { EnterPage } from './pages/EnterPage';
 import { AllRoutes } from './routes/AllRoutes';
 import './App.css';
 
