@@ -1,7 +1,7 @@
 
 
 
-export const Team = () => {
+export const News = () => {
   return (
     <div>Team</div>
   )
