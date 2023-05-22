@@ -47,7 +47,7 @@ export const AgencyHeader = () => {
 
           <div className="relative">
             <nav className="absolute top-0 left-0 right-0 z-10 border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
                 <Link to="/agency" className="flex items-center">
                   <img src={logo} className="h-6 mr-3" alt="Logo" />
                 </Link>
@@ -125,14 +125,17 @@ export const AgencyHeader = () => {
             </nav>
       
             <div className="relative">
-              <img src={Cov} alt="Cover" className="w-full h-full object-cover" />
+              <img src={Cov} alt="Cover" className="max-w-full object-cover" />
             </div>
 
-            <div className="absolute top-80 left-28 mx-auto a-homediv">
+            <div className=" a-homediv">
                 <h3 className="text-white font-extralight text-xl mb-3">We strongly Believe that</h3>
                 <h1 className="text-white font-bold mb-8 text-6xl">IDEAS MATTER</h1>
                 <button type="button" className="text-white hover:underline decoration-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read More</button>
             </div>
+            <div className="h-72 bg-black w-full ">
+              <p className="text-white text-center font-extralight text-xl p-6">Our Costumers</p>
+              </div>
           </div>
 
       

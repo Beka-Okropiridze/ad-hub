@@ -42,7 +42,7 @@
 
 
 /* Agency Home div content */
-  @media screen and (max-width: 640px) {
+  /* @media screen and (max-width: 640px) {
     .a-homediv {
       position: absolute;
       top: 60%;
@@ -69,54 +69,198 @@
 };
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-    .a-homediv {
-      position: absolute;
-      top: 60%;
-      left: 40px;
-      transform: translate(-10%, -40%);
-      text-align: left;
-    }
+  .a-homediv {
+    position: absolute;
+    top: 20%;
+    left: 40px;
+    transform: translate(-10%, -40%);
+    text-align: left;
+  }
 
-    .a-homediv h3 {
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
+  .a-homediv h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
 
-    .a-homediv h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
-    }
+  .a-homediv h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
 
-    .a-homediv button {
-      font-size: 14px;
-      padding: 6px 12px;
-      margin-top: 10px;
-    }
-};
+  .a-homediv button {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .a-homediv {
+    position: absolute;
+    top: 60%;
+    left: 40px;
+    transform: translate(-10%, -40%);
+    text-align: left;
+  }
+
+  .a-homediv h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .a-homediv h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .a-homediv button {
+    font-size: 16px;
+    padding: 6px 12px;
+    margin-top: 10px;
+  }
+} */
 
 
-@media screen and (min-width: 769) and (max-width: 1024px) {
-    .a-homediv {
-      position: absolute;
-      top: 60%;
-      left: 40px;
-      transform: translate(-10%, -40%);
-      text-align: left;
-    }
 
-    .a-homediv h3 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
 
-    .a-homediv h1 {
-      font-size: 32px;
-      margin-bottom: 12px;
-    }
 
-    .a-homediv button {
-      font-size: 16px;
-      padding: 6px 12px;
-      margin-top: 10px;
-    }
-};
+
+.a-homediv {
+  position: absolute;
+  top: 60%;
+  left: 40px;
+  transform: translate(-10%, -40%);
+  text-align: left;
+}
+
+.a-homediv h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.a-homediv h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.a-homediv button {
+  font-size: 16px;
+  padding: 6px 12px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .a-homediv {
+    top: 60%;
+    left: 50px;
+  }
+
+  .a-homediv h3 {
+    font-size: 14px;
+  }
+
+  .a-homediv h1 {
+    font-size: 20px;
+  }
+
+  .a-homediv button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .a-homediv {
+    top: 60%;
+    left: 55px;
+  }
+
+  .a-homediv h3 {
+    font-size: 18px;
+  }
+
+  .a-homediv h1 {
+    font-size: 24px;
+  }
+
+  .a-homediv button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .a-homediv {
+    top: 50%;
+    left: 60px;
+  }
+
+  .a-homediv h3 {
+    font-size: 22px;
+  }
+
+  .a-homediv h1 {
+    font-size: 28px;
+  }
+
+  .a-homediv button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1310px) {
+  .a-homediv {
+    top: 50%;
+    left: 60px;
+  }
+
+  .a-homediv h3 {
+    font-size: 22px;
+  }
+
+  .a-homediv h1 {
+    font-size: 28px;
+  }
+
+  .a-homediv button {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1310px) and (max-width: 1480px) {
+  .a-homediv {
+    top: 50%;
+    left: 150px;
+  }
+  
+  .a-homediv h3 {
+    font-size: 24px;
+  }
+  
+  .a-homediv h1 {
+    font-size: 32px;
+  }
+.a-homediv button {
+  font-size: 22px;
+} 
+  
+
+}
+
+@media screen and (min-width: 1480px) {
+  .a-homediv {
+    top: 50%;
+    left: 150px;
+  }
+  
+  .a-homediv h3 {
+    font-size: 24px;
+  }
+  
+  .a-homediv h1 {
+    font-size: 32px;
+  }
+.a-homediv button {
+  font-size: 22px;
+} 
+  
+
+}
