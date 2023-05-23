@@ -39,92 +39,10 @@
       font-size: 2vw;
     }
   }
+  /* End Enterpage */
 
 
-/* Agency Home div content */
-  /* @media screen and (max-width: 640px) {
-    .a-homediv {
-      position: absolute;
-      top: 60%;
-      left: 40px;
-      transform: translate(-10%, -40%);
-      text-align: left;
-    }
-
-    .a-homediv h3 {
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-
-    .a-homediv h1 {
-      font-size: 24px;
-      margin-bottom: 12px;
-    }
-
-    .a-homediv button {
-      font-size: 10px;
-      padding: 6px 12px;
-      margin-top: 10px;
-    }
-};
-
-@media screen and (min-width: 641px) and (max-width: 768px) {
-  .a-homediv {
-    position: absolute;
-    top: 20%;
-    left: 40px;
-    transform: translate(-10%, -40%);
-    text-align: left;
-  }
-
-  .a-homediv h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-
-  .a-homediv h1 {
-    font-size: 28px;
-    margin-bottom: 12px;
-  }
-
-  .a-homediv button {
-    font-size: 14px;
-    padding: 6px 12px;
-    margin-top: 10px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .a-homediv {
-    position: absolute;
-    top: 60%;
-    left: 40px;
-    transform: translate(-10%, -40%);
-    text-align: left;
-  }
-
-  .a-homediv h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  .a-homediv h1 {
-    font-size: 32px;
-    margin-bottom: 12px;
-  }
-
-  .a-homediv button {
-    font-size: 16px;
-    padding: 6px 12px;
-    margin-top: 10px;
-  }
-} */
-
-
-
-
-
-
+/* Agency content */
 .a-homediv {
   position: absolute;
   top: 60%;
@@ -151,7 +69,7 @@
 
 @media screen and (max-width: 640px) {
   .a-homediv {
-    top: 60%;
+    top: 170px;
     left: 50px;
   }
 
@@ -170,7 +88,7 @@
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .a-homediv {
-    top: 60%;
+    top: 200px;
     left: 55px;
   }
 
@@ -189,7 +107,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .a-homediv {
-    top: 50%;
+    top: 260px;
     left: 60px;
   }
 
@@ -208,7 +126,7 @@
 
 @media screen and (min-width: 1281px) and (max-width: 1310px) {
   .a-homediv {
-    top: 50%;
+    top: 290px;
     left: 60px;
   }
 
@@ -225,12 +143,12 @@
   }
 }
 
-@media screen and (min-width: 1310px) and (max-width: 1480px) {
+@media screen and (min-width: 1311px) and (max-width: 1345px) {
   .a-homediv {
-    top: 50%;
-    left: 150px;
+    top: 300px;
+    left: 80px;
   }
-  
+
   .a-homediv h3 {
     font-size: 24px;
   }
@@ -241,13 +159,29 @@
 .a-homediv button {
   font-size: 22px;
 } 
-  
+}
 
+@media screen and (min-width: 1345px) and (max-width: 1480px) {
+  .a-homediv {
+    top: 310px;
+    left: 140px;
+  }
+
+  .a-homediv h3 {
+    font-size: 24px;
+  }
+  
+  .a-homediv h1 {
+    font-size: 32px;
+  }
+.a-homediv button {
+  font-size: 22px;
+} 
 }
 
 @media screen and (min-width: 1480px) {
   .a-homediv {
-    top: 50%;
+    top: 330px;
     left: 150px;
   }
   
@@ -261,6 +195,105 @@
 .a-homediv button {
   font-size: 22px;
 } 
-  
+}
+/* End Agency Cont */
 
+/* costumers and logoDiv */
+@media screen and (max-width: 768px) { 
+  .costumers { 
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) { 
+  .logoimg { 
+    width: 56px;
+    display: flex;
+    justify-content: center;
+  }
+  .logowrapper { 
+    margin-top: 14px;
+  }
+  .costumers { 
+    padding-top: 18px;
+  }
+  .logodivi { 
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) { 
+  .logoimg { 
+    width: 72px;
+    display: flex;
+    justify-content: center;
+  }
+  .logowrapper { 
+    margin-top: 18px;
+  }
+  .costumers { 
+    padding-top: 22px;
+  }
+  .logodivi { 
+    height: 140px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { 
+  .logoimg { 
+    width: 84px;
+    display: flex;
+    justify-content: center;
+  }
+  .logowrapper { 
+    margin-top: 22px;
+  }
+  .costumers { 
+    padding-top: 26px;
+  }
+  .logodivi { 
+    height: 170px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1264px) { 
+  .logoimg { 
+    width: 96px;
+    display: flex;
+    justify-content: center;
+  }
+  .logowrapper { 
+    margin-top: 26px;
+  }
+  .costumers { 
+    padding-top: 30px;
+  }
+  .logodivi { 
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1265px) { 
+  .logoimg { 
+    width: 116px;
+    display: flex;
+    justify-content: center;
+  }
+  .logowrapper { 
+    margin-top: 34px;
+  }
+  .costumers { 
+    padding-top: 36px;
+  }
+  .logodivi { 
+    height: 230px;
+  }
+}
+/* End costumers and logoDiv */
+
+/* Icons section on Agency page */
+
+.iconsDivi { 
+  height: 800px;
+  background-color: #353535;
 }
