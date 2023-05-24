@@ -1,6 +1,12 @@
-import Cov from '../assets/cov.png'
+import Cov from '../assets/cov.png';
 import coca from '../assets/coca.svg';
 import gql from '../assets/gql.svg';
+import erti from '../assets/101.svg';
+import ori from '../assets/102.svg';
+import sami from '../assets/103.svg';
+import otxi from '../assets/104.svg';
+import xuti from '../assets/105.svg';
+import eqvsi from '../assets/106.svg';
 import google from '../assets/google.svg';
 import logo from '../assets/logo.svg';
 import { Link } from "react-router-dom";
@@ -37,7 +43,7 @@ export const AgencyHeader = () => {
                   </svg>
                 </button>
                 <div
-                  className="hidden w-full pt-3 md:block md:w-auto" //hidden class removed 
+                  className=" w-full pt-3 md:block md:w-auto" //hidden class removed 
                   id="navbar-solid-bg"
                 >
                   <ul className="flex flex-col font-light rounded-lg bg-black md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
@@ -88,16 +94,16 @@ export const AgencyHeader = () => {
             </nav>
       
             <div className="relative">
-              <img src={Cov} alt="Cover" className="max-w-full object-cover" />
+              <img src={Cov} alt="Cover" className="max-w-full object-cover lampimg" />
             </div>
 
             <div className="a-homediv">
                 <h3 className="text-white font-extralight text-xl mb-3">We strongly Believe that</h3>
                 <h1 className="text-white font-bold mb-8 text-6xl">IDEAS MATTER</h1>
-                <button type="button" className="text-white hover:underline decoration-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read More</button>
+                <button type="button" className="text-white hover:underline decoration-1 bg-indigo-600 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read More</button>
             </div>
 
-            <div className=" logodivi bg-black">
+            <div className="logodivi bg-black">
 
               <div>
                 <p className="costumers text-white text-center font-extralight text-2xl pt-12">Our Costumers</p>
@@ -117,20 +123,44 @@ export const AgencyHeader = () => {
               
             </div>
 
-            <div className='iconsDivi'>
+            <div className='iconsWrapper'>
               <div>
-                <p className='pt-16 text-white font-extralight text-2xl text-center'>Our Services</p>
+                <p className='pt-16 pb-24 text-white font-extralight text-2xl text-center ourServices'>Our Services</p>
 
-                <div className='flex'>
-                  <div></div>
-                  <div></div>
-                  <div></div>
+                <div className='flex justify-around iconsdivi1'>
+                  <div className='flex flex-col items-center w-60 text-center eachDiv'>
+                    <img className='w-28 mb-8 iconimages' src={ori} alt='IconOne' />
+                    <h4 className='text-white font-medium text-xl mb-5 h4texts'>Branding</h4>
+                    <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+                  </div>
+                  <div className='flex flex-col items-center w-60 text-center eachDiv'>
+                    <img className='w-28 mb-5 iconimages' src={erti} alt='IconOne' />
+                    <h4 className='text-white font-medium text-xl mb-5 h4texts'>Marketing Strategy</h4>
+                    <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+                  </div>
+                  <div className='flex flex-col items-center w-60 text-center eachDiv'>
+                    <img className='mb-6 w-24 iconimages' src={otxi} alt='IconOne' />
+                    <h4 className='text-white font-medium text-xl mb-5 h4texts'>Digital Marketing</h4>
+                    <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+                  </div>
                 </div>
 
-                <div className='flex'>
-                  <div></div>
-                  <div></div>
-                  <div></div>
+                <div className='flex justify-around mt-16 iconsdivi1 d1'>
+                  <div className='flex flex-col items-center w-60 text-center eachDiv'>
+                    <img className='w-20 mb-7 iconimages' src={sami} alt='IconOne' />
+                    <h4 className='text-white font-medium text-xl mb-5 h4texts'>Copywrighting</h4>
+                    <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+                  </div>
+                  <div className='flex flex-col items-center w-60 text-center eachDiv'>
+                    <img className='w-28 mb-5 iconimages' src={xuti} alt='IconOne' />
+                    <h4 className='text-white font-medium text-xl mb-5 h4texts'>Web Development</h4>
+                    <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+                  </div>
+                  <div className='flex flex-col items-center w-60 text-center eachDiv'>
+                    <img className='mb-6 w-24 iconimages' src={eqvsi} alt='IconOne' />
+                    <h4 className='text-white font-medium text-xl mb-5 h4texts'>Design</h4>
+                    <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+                  </div>
                 </div>
 
               </div>
