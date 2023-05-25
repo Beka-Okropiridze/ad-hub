@@ -30,18 +30,18 @@ export const EnterPage = () => {
 
       <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='relative'>
         <Link to='/academy' className='w-1/2'>
-          <img src={sur} alt='Enter img' />
+          <img className='sur' src={sur} alt='Enter img' />
           {hover && <div className='hover-text border-solid border-2 border-slate-300 p-2'>
-            Lorem ipsum dolor sit amet lore8eqe kode Lorem ipsum dolor sit amet Lorem ipsum dolor Lorem, ipsum dolor. Lorem, ipsum. sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Lorem ipsum Lorem ipsum dolor Lorem, ipsum dolor. Lorem, ipsum. sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </div>}
         </Link>
       </div>
 
       <div onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2} className='relative'>
         <Link to='/agency' className='w-1/2'>
-          <img src={sur1} alt='Ent img'  />
+          <img className='sur' src={sur1} alt='Ent img'  />
           {hover2 && <div className='hover-text2 border-solid border-2 border-slate-300 p-2'>
-            Lorem ipsum dolor sit amet lore8eqe kode Lorem ipsum dolor sit amet Lorem ipsum dolor Lorem, ipsum dolor. Lorem, ipsum. sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Lorem ipsumum dolor sit amet Lorem, ipsum dolor. Lorem, ipsum. sit amet Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </div>}
         </Link>
       </div>

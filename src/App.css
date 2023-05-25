@@ -1,14 +1,14 @@
 /* Enter page divs */
 .hover-text { 
     position: absolute;
-    top: 85%;
-    left: 74%;
+    /* top: 85%;
+    left: 74%; */
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     width: 52%;
     
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .hover-text {
       font-size: 1.5vw;
     }
@@ -18,17 +18,17 @@
     .hover-text {
       font-size: 2vw;
     }
-  }
+  } */
   .hover-text2 { 
     position: absolute;
-    top: 85%;
-    right: 22%;
+    /* top: 85%;
+    right: 22%; */
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     width: 52%;
     
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .hover-text2 {
       font-size: 1.5vw;
     }
@@ -38,15 +38,20 @@
     .hover-text2 {
       font-size: 2vw;
     }
-  }
+  } */
   /* End Enterpage */
-
+/* .www { 
+  width: 370px;
+  height: 700px;
+  background-color: black;
+  margin-bottom: 10px;
+} */
 
 /* Agency content */
 .a-homediv {
   position: absolute;
-  top: 60%;
-  left: 40px;
+  /* top: 60%;
+  left: 40px; */
   transform: translate(-10%, -40%);
   text-align: left;
 }
@@ -67,18 +72,35 @@
   margin-top: 10px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
+  .hover-text {
+    top: 620px;
+    left: 120px;
+    font-size: 8px;
+    width: 204px;
+    height: 50px;
+  }
+  .hover-text2 {
+    top: 620px;
+    left: 105px;
+    font-size: 8px;
+    width: 204px;
+    height: 50px;
+  }
+  .sur { 
+    height: 720px;
+  }
   .a-homediv {
     top: 380px;
     left: 50px;
   }
   .lampimg { 
-    height: 812px;
+    height: 720px;
     background-size: contain;
     background-position: center;
   }
   .a-homediv h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .a-homediv h1 {
@@ -86,14 +108,14 @@
   }
 
   .a-homediv button {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
-@media screen and (min-width: 641px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
   .a-homediv {
-    top: 200px;
-    left: 55px;
+    top: 380px;
+    left: 50px;
   }
   .lampimg { 
     height: 812px;
@@ -113,7 +135,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 1278px) {
   .a-homediv {
     top: 260px;
     left: 60px;
@@ -136,49 +158,16 @@
   }
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1310px) {
-  .a-homediv {
-    top: 290px;
-    left: 60px;
-  }
-
-  .a-homediv h3 {
-    font-size: 22px;
-  }
-
-  .a-homediv h1 {
-    font-size: 28px;
-  }
-
-  .a-homediv button {
-    font-size: 18px;
-  }
-}
-
-@media screen and (min-width: 1311px) and (max-width: 1345px) {
-  .a-homediv {
-    top: 300px;
-    left: 80px;
-  }
-
-  .a-homediv h3 {
-    font-size: 24px;
-  }
-  
-  .a-homediv h1 {
-    font-size: 32px;
-  }
-.a-homediv button {
-  font-size: 22px;
-} 
-}
-
-@media screen and (min-width: 1345px) and (max-width: 1480px) {
+@media screen and (min-width: 1278px) and (max-width: 1365px) {
   .a-homediv {
     top: 310px;
-    left: 140px;
+    left: 60px;
   }
-
+  .lampimg { 
+    min-height: 720px;
+    background-size: contain;
+    background-position: center;
+  }
   .a-homediv h3 {
     font-size: 24px;
   }
@@ -187,16 +176,21 @@
     font-size: 32px;
   }
 .a-homediv button {
-  font-size: 22px;
+  font-size: 24px;
+  margin-top: 16px;
 } 
 }
 
-@media screen and (min-width: 1480px) {
+@media screen and (min-width: 1365px) and (max-width: 1535px) {
   .a-homediv {
     top: 330px;
-    left: 150px;
+    left: 60px;
   }
-  
+  .lampimg { 
+    min-height: 769px;
+    background-size: contain;
+    background-position: center;
+  }
   .a-homediv h3 {
     font-size: 24px;
   }
@@ -205,7 +199,53 @@
     font-size: 32px;
   }
 .a-homediv button {
-  font-size: 22px;
+  font-size: 24px;
+  margin-top: 18px;
+} 
+}
+
+@media screen and (min-width: 1535px) and (max-width: 1918px) {
+  .a-homediv {
+    top: 330px;
+    left: 60px;
+  }
+  .lampimg { 
+    min-height: 864px;
+    background-size: contain;
+    background-position: center;
+  }
+  .a-homediv h3 {
+    font-size: 24px;
+  }
+  
+  .a-homediv h1 {
+    font-size: 32px;
+  }
+.a-homediv button {
+  font-size: 24px;
+  margin-top: 18px;
+} 
+}
+@media screen and (min-width: 1918px) {
+  .a-homediv {
+    top: 330px;
+    left: 60px;
+  }
+  .lampimg { 
+    min-height: 864px;
+    background-size: contain;
+    background-position: center;
+  }
+  .a-homediv h3 {
+    font-size: 24px;
+  }
+  
+  .a-homediv h1 {
+    font-size: 32px;
+  }
+.a-homediv button {
+  font-size: 24px;
+  margin-top: 18px;
 } 
 }
 /* End Agency Cont */
@@ -217,7 +257,7 @@
   }
 }
 
-@media screen and (max-width: 640px) { 
+@media screen and (max-width: 600px) { 
   .logoimg { 
     width: 56px;
     display: flex;
@@ -234,7 +274,7 @@
   }
 }
 
-@media screen and (min-width: 641px) and (max-width: 768px) { 
+@media screen and (min-width: 600px) and (max-width: 768px) { 
   .logoimg { 
     width: 72px;
     display: flex;
@@ -251,7 +291,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) { 
+@media screen and (min-width: 768px) and (max-width: 1278px) { 
   .logoimg { 
     width: 84px;
     display: flex;
@@ -268,7 +308,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1264px) { 
+@media screen and (min-width: 1278px) and (max-width: 1365px) { 
   .logoimg { 
     width: 96px;
     display: flex;
@@ -285,7 +325,7 @@
   }
 }
 
-@media screen and (min-width: 1265px) { 
+@media screen and (min-width: 1365px) { 
   .logoimg { 
     width: 116px;
     display: flex;
@@ -310,7 +350,7 @@
   background-color: #353535;
 }
 
-@media screen and (max-width: 640px) { 
+@media screen and (max-width: 600px) { 
   .iconsWrapper { 
     height: 1300px;
   }
@@ -343,7 +383,7 @@
 }
 
 
-@media screen and (min-width: 640px) and (max-width: 768px) { 
+@media screen and (min-width: 600px) and (max-width: 768px) { 
   .iconsWrapper { 
     height: 1400px;
   }
@@ -376,7 +416,7 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) { 
+@media screen and (min-width: 768px) and (max-width: 1278px) { 
   .iconsWrapper { 
     height: 1580px;
   }

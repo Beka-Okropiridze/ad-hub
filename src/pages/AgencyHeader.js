@@ -16,7 +16,7 @@ export const AgencyHeader = () => {
 
           <div className="relative">
             <nav className="absolute top-0 left-0 right-0 z-10 border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
+              <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-8">
                 <Link to="/agency" className="flex items-center">
                   <img src={logo} className="h-6 mr-3" alt="Logo" />
                 </Link>
@@ -43,7 +43,7 @@ export const AgencyHeader = () => {
                   </svg>
                 </button>
                 <div
-                  className=" w-full pt-3 md:block md:w-auto" //hidden class removed 
+                  className="hidden w-full md:block md:w-auto" //hidden class removed 
                   id="navbar-solid-bg"
                 >
                   <ul className="flex flex-col font-light rounded-lg bg-black md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
@@ -166,6 +166,7 @@ export const AgencyHeader = () => {
               </div>
 
             </div>
+
 
           </div>
     
