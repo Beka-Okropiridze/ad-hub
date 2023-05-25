@@ -10,6 +10,7 @@ import eqvsi from '../assets/106.svg';
 import google from '../assets/google.svg';
 import logo from '../assets/logo.svg';
 import { Link } from "react-router-dom";
+import { Footer } from './Footer';
 
 export const AgencyHeader = () => {
     return (
@@ -100,7 +101,7 @@ export const AgencyHeader = () => {
             <div className="a-homediv">
                 <h3 className="text-white font-extralight text-xl mb-3">We strongly Believe that</h3>
                 <h1 className="text-white font-bold mb-8 text-6xl">IDEAS MATTER</h1>
-                <button type="button" className="text-white hover:underline decoration-1 bg-indigo-600 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read More</button>
+                <button type="button" className="text-white w-48 hover:underline decoration-1 bg-violet-500 hover:bg-violet-800 focus:ring-4 focus:ring-violet-300 font-medium rounded-3xl px-2 py-2.5 mr-2 mb-2 dark:bg-violet-600 dark:hover:bg-violet-700 focus:outline-none dark:focus:ring-violet-800">Read More</button>
             </div>
 
             <div className="logodivi bg-black">
@@ -124,22 +125,23 @@ export const AgencyHeader = () => {
             </div>
 
             <div className='iconsWrapper'>
+
               <div>
                 <p className='pt-16 pb-24 text-white font-extralight text-2xl text-center ourServices'>Our Services</p>
 
                 <div className='flex justify-around iconsdivi1'>
                   <div className='flex flex-col items-center w-60 text-center eachDiv'>
-                    <img className='w-28 mb-8 iconimages' src={ori} alt='IconOne' />
+                    <img className='w-28 mb-8 iconimages img101' src={ori} alt='IconOne' />
                     <h4 className='text-white font-medium text-xl mb-5 h4texts'>Branding</h4>
                     <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
                   </div>
                   <div className='flex flex-col items-center w-60 text-center eachDiv'>
-                    <img className='w-28 mb-5 iconimages' src={erti} alt='IconOne' />
+                    <img className='w-28 mb-5 iconimages img102' src={erti} alt='IconOne' />
                     <h4 className='text-white font-medium text-xl mb-5 h4texts'>Marketing Strategy</h4>
                     <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
                   </div>
                   <div className='flex flex-col items-center w-60 text-center eachDiv'>
-                    <img className='mb-6 w-24 iconimages' src={otxi} alt='IconOne' />
+                    <img className='mb-6 w-24 iconimages img103' src={otxi} alt='IconOne' />
                     <h4 className='text-white font-medium text-xl mb-5 h4texts'>Digital Marketing</h4>
                     <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
                   </div>
@@ -147,26 +149,25 @@ export const AgencyHeader = () => {
 
                 <div className='flex justify-around mt-16 iconsdivi1 d1'>
                   <div className='flex flex-col items-center w-60 text-center eachDiv'>
-                    <img className='w-20 mb-7 iconimages' src={sami} alt='IconOne' />
+                    <img className='w-20 mb-7 iconimages img104' src={sami} alt='IconOne' />
                     <h4 className='text-white font-medium text-xl mb-5 h4texts'>Copywrighting</h4>
                     <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
                   </div>
                   <div className='flex flex-col items-center w-60 text-center eachDiv'>
-                    <img className='w-28 mb-5 iconimages' src={xuti} alt='IconOne' />
+                    <img className='w-28 mb-5 iconimages img105' src={xuti} alt='IconOne' />
                     <h4 className='text-white font-medium text-xl mb-5 h4texts'>Web Development</h4>
                     <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
                   </div>
                   <div className='flex flex-col items-center w-60 text-center eachDiv'>
-                    <img className='mb-6 w-24 iconimages' src={eqvsi} alt='IconOne' />
+                    <img className='mb-6 w-24 iconimages img106' src={eqvsi} alt='IconOne' />
                     <h4 className='text-white font-medium text-xl mb-5 h4texts'>Design</h4>
                     <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
                   </div>
                 </div>
-
               </div>
 
             </div>
-
+            <Footer />
 
           </div>
     
