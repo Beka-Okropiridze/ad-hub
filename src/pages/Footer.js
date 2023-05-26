@@ -2,30 +2,29 @@ import logo from '../assets/logo.svg';
 
 
 export const Footer = () => {
+
     return (
-        <footer className='w-full bg-black h-96 absolute'>
-            <div className="relative">
+        <footer className=' bg-black h-96 mx-auto w-full max-w-screen-2xl absolute'>
+            <img className='h-6 w-40 relative top-14' src={logo} alt='Logo' />
+            <div className='relative top-20 mx-auto p-8 flex justify-between footeri'>
 
-                <div >
-                    <img src={logo} />
-                </div>
-
-                <div className='flex justify-around text-white'>
-                    <p>Home</p>
-                    <p>About Us</p>
+                <div className='flex flex-col text-white font-light text-lg'>
+                    <p className='mb-8'>Home</p>
+                    <p className='mb-8'>About Us</p>
                     <p>Location</p>
                 </div>
 
-                <div className='flex justify-around text-white'>
-                    <p>Services</p>
-                    <p>Contact</p>
-                    <p>Phone</p>
+                <div className='flex flex-col mr-64 text-white font-light text-lg'>
+                    <p className='mb-8'>Services</p>
+                    <p className='mb-8'>Contact</p>
                 </div>
 
-                <div className='flex justify-around text-white'>
-                    <p>News</p>
-                    <p>Faq</p>
-                    <p>Mail</p>
+                <div className='flex flex-col text-white font-light text-lg justify-end'>
+                    <p className='mb-8 self-end'>News</p>
+                    <p className='mb-8 self-end'>FAQ</p>
+                    <div className='bg-white w-52 h-7 rounded-3xl flex justify-end'>
+                        <button type='button' className='bg-violet-500 rounded-3xl pr-3 pl-3'>Send</button>
+                    </div>
                 </div>
 
             </div>
