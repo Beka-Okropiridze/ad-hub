@@ -17,7 +17,7 @@ export const AgencyHeader = () => {
 
           <div className="relative">
             <nav className="absolute top-0 left-0 right-0 z-10 border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8">
+              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8 main-div">
                 <Link to="/agency" className="flex items-center">
                   <img src={logo} className="h-6 mr-3" alt="Logo" />
                 </Link>

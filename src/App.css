@@ -186,7 +186,7 @@
 @media screen and (min-width: 1365px) and (max-width: 1535px) {
   .a-homediv {
      top: 330px;
-     left: 10%; 
+     left: 8%; 
   }
   .lampimg { 
     min-height: 769px;
@@ -209,7 +209,7 @@
 @media screen and (min-width: 1535px) and (max-width: 1918px) {
   .a-homediv {
     top: 330px;
-    left: 60px;
+    left: 180px;
   }
   .lampimg { 
     min-height: 864px;
@@ -229,6 +229,14 @@
 } 
 }
 @media screen and (min-width: 1918px) {
+  .main-div { 
+    max-width: 1536px;
+    margin: 0 auto;
+  }
+  .footer-div { 
+    max-width: 1536px;
+    margin: 0 auto;
+  }
   .a-homediv {
     top: 330px;
     left: 250px;
