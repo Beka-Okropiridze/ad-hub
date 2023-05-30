@@ -227,6 +227,7 @@
   font-size: 24px;
   margin-top: 18px;
 } 
+
 }
 @media screen and (min-width: 1918px) {
   .main-div { 
@@ -239,7 +240,7 @@
   }
   .a-homediv {
     top: 330px;
-    left: 250px;
+    left: 260px;
   }
   .lampimg { 
     min-height: 864px;
@@ -257,6 +258,10 @@
   font-size: 30px;
   margin-top: 24px;
 } 
+.iconsdivi1 { 
+  max-width: 1536px;
+  margin: 12px auto;
+}
 }
 /* End Agency Cont */
 

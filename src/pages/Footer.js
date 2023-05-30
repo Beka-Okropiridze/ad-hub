@@ -5,7 +5,7 @@ export const Footer = () => {
 
     return (
         <footer className=' bg-black h-96 mx-auto w-full absolute'>
-            <div className='max-w-screen-xl mx-auto'>
+            <div className='footer-div max-w-screen-xl mx-auto'>
                 <img className='h-6 w-40 relative top-14' src={logo} alt='Logo' />
                 
                 <div className='footer-div relative top-20 mx-auto p-8 flex justify-between'>
