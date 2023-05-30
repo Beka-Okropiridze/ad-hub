@@ -44,7 +44,7 @@ export const AgencyHeader = () => {
                   </svg>
                 </button>
                 <div
-                  className="hidden w-full md:block md:w-auto" //hidden class removed 
+                  className=" w-full md:block md:w-auto" //hidden class removed 
                   id="navbar-solid-bg"
                 >
                   <ul className="flex flex-col font-light rounded-lg bg-black md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">

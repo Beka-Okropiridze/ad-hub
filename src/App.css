@@ -79,7 +79,7 @@
     height: 720px;
   }
   .a-homediv {
-    top: 380px;
+    top: 360px;
     left: 50px;
   }
   .readmorebtn { 
@@ -105,7 +105,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .a-homediv {
-    top: 300px;
+    top: 360px;
     left: 50px;
   }
   .lampimg { 
@@ -163,7 +163,7 @@
 @media screen and (min-width: 1278px) and (max-width: 1365px) {
   .a-homediv {
     top: 310px;
-    left: 68px;
+    left: 62px;
   }
   .lampimg { 
     min-height: 720px;
@@ -186,7 +186,7 @@
 @media screen and (min-width: 1365px) and (max-width: 1535px) {
   .a-homediv {
      top: 330px;
-     left: 8%; 
+     left: 7.5%; 
   }
   .lampimg { 
     min-height: 769px;
@@ -209,7 +209,7 @@
 @media screen and (min-width: 1535px) and (max-width: 1918px) {
   .a-homediv {
     top: 330px;
-    left: 180px;
+    left: 188px;
   }
   .lampimg { 
     min-height: 864px;
