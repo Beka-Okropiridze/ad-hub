@@ -1,14 +1,15 @@
+
 import logo from '../assets/logo.svg';
 
 
 export const Footer = () => {
 
     return (
-        <footer className=' bg-black h-96 mx-auto w-full absolute'>
-            <div className='footer-div max-w-screen-xl mx-auto'>
+        <footer className=' bg-black h-96 w-full absolute'>
+            <div className=' max-w-screen-xl mx-auto 2xl:max-w-screen-2xl'>
                 <img className='h-6 w-40 relative top-14' src={logo} alt='Logo' />
                 
-                <div className='footer-div relative top-20 mx-auto p-8 flex justify-between'>
+                <div className=' relative top-20 mx-auto p-8 flex justify-between'>
                     <div className='flex flex-col text-white font-light text-lg'>
                         <p className='mb-8'>Home</p>
                         <p className='mb-8'>About Us</p>

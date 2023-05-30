@@ -12,7 +12,7 @@
     width: 52%;
 }
 /* Agency content */
-.a-homediv {
+/* .a-homediv {
   position: absolute;
   transform: translate(-10%, -40%);
   text-align: left;
@@ -32,7 +32,7 @@
   font-size: 16px;
   padding: 6px 12px;
   margin-top: 10px;
-}
+} */
 
 .img101:hover {
   content: url(./assets/101-hover.svg);
@@ -53,14 +53,68 @@
   content: url(./assets/106-hover.svg);
 }
 
+.Cover-wrapper { 
+  height: 900px;
+}
+.Cover-img { 
+  height: 900px;
+}
 
 @media screen and (max-width: 600px) {
-  .hover-text {
-    top: 620px;
-    left: 120px;
-    font-size: 8px;
-    width: 204px;
-    height: 50px;
+  .Cover-wrapper { 
+    height: 756px;
+  }
+  .Cover-img { 
+    height: 756px;
+  }
+  .readMore-wrapper { 
+    top: -120px;
+  }
+  .we-strongly { 
+    font-size: 16px;
+  }
+  .ideas-matter { 
+    font-size: 28px;
+  }
+  .readMore-btn { 
+    margin-top: 20px;
+  }
+  .our-costumer { 
+    font-size: 18px;
+  }
+  .logoimg { 
+    width: 72px;
+    display: flex;
+    justify-content: center;
+  }
+  .iconsWrapper { 
+    height: 1300px;
+  }
+  .iconsdivi1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  .ourServices { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  .eachDiv { 
+    margin-bottom: 24px;
+  }
+  .iconimages { 
+    width: 40px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .h4texts{ 
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  .ptext {
+    font-size: 14px;
   }
   .footer-last-sec { 
     display: none;
@@ -68,40 +122,241 @@
   .footer-sec2 { 
     margin-right: 0px;
   }
-  .hover-text2 {
-    top: 620px;
-    left: 105px;
-    font-size: 8px;
-    width: 204px;
-    height: 50px;
-  }
-  .sur { 
-    height: 720px;
-  }
-  .a-homediv {
-    top: 360px;
-    left: 50px;
-  }
-  .readmorebtn { 
-    width: 140px;
-  }
-  .lampimg { 
-    height: 720px;
-    background-size: contain;
-    background-position: center;
-  }
-  .a-homediv h3 {
-    font-size: 16px;
-  }
+}
 
-  .a-homediv h1 {
-    font-size: 20px;
-  }
 
-  .a-homediv button {
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .Cover-wrapper { 
+    height: 756px;
+  }
+  .Cover-img { 
+    height: 756px;
+  }
+  .readMore-wrapper { 
+    top: -120px;
+  }
+  .we-strongly { 
+    font-size: 18px;
+  }
+  .ideas-matter { 
+    font-size: 32px;
+  }
+  .readMore-btn { 
+    margin-top: 20px;
+  }
+  .our-costumer { 
+    font-size: 18px;
+  }
+  .logoimg { 
+    width: 72px;
+    display: flex;
+    justify-content: center;
+  }
+  .iconsWrapper { 
+    height: 1300px;
+  }
+  .iconsdivi1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  .ourServices { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  .eachDiv { 
+    margin-bottom: 24px;
+  }
+  .iconimages { 
+    width: 40px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .h4texts{ 
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  .ptext {
     font-size: 14px;
   }
+  .footer-last-sec { 
+    display: none;
+  }
+  .footer-sec2 { 
+    margin-right: 0px;
+  }
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .Cover-wrapper { 
+    height: 768px;
+  }
+  .Cover-img { 
+    height: 768px;
+  }
+  .readMore-wrapper { 
+    top: 20px;
+  }
+  .we-strongly { 
+    font-size: 22px;
+  }
+  .ideas-matter { 
+    font-size: 38px;
+  }
+  .readMore-btn { 
+    margin-top: 28px;
+    width: 240px;
+    padding: 2px;
+    font-size: 28px;
+  }
+  .our-costumer { 
+    font-size: 18px;
+  }
+  /* .logoimg { 
+    width: 72px;
+    display: flex;
+    justify-content: center;
+  } */
+  .iconsWrapper { 
+    height: 1300px;
+  }
+  .iconsdivi1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  .ourServices { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  .eachDiv { 
+    margin-bottom: 24px;
+  }
+  .iconimages { 
+    width: 40px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .h4texts{ 
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  .ptext {
+    font-size: 14px;
+  }
+  /* .footer-last-sec { 
+    display: none;
+  } */
+  .footer-sec2 { 
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .Cover-wrapper { 
+    height: 768px;
+  }
+  .Cover-img { 
+    height: 768px;
+  }
+  .readMore-wrapper { 
+    top: 20px;
+  }
+  .we-strongly { 
+    font-size: 24px;
+  }
+  .ideas-matter { 
+    font-size: 39px;
+  }
+  .readMore-btn { 
+    margin-top: 28px;
+    width: 240px;
+    padding: 2px;
+    font-size: 28px;
+  }
+  .our-costumer { 
+    font-size: 18px;
+  }
+  /* .logoimg { 
+    width: 8px;
+    display: flex;
+    justify-content: center;
+  } */
+  .iconsWrapper { 
+    height: 1300px;
+  }
+  .iconsdivi1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  .ourServices { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  .eachDiv { 
+    margin-bottom: 24px;
+  }
+  .iconimages { 
+    width: 4px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .h4texts{ 
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  .ptext {
+    font-size: 14px;
+  }
+  .footer-sec2 { 
+    margin-right: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
   .a-homediv {
@@ -186,7 +441,8 @@
 @media screen and (min-width: 1365px) and (max-width: 1535px) {
   .a-homediv {
      top: 330px;
-     left: 7.5%; 
+     max-width: 1366px; 
+     margin: auto 155px;
   }
   .lampimg { 
     min-height: 769px;
@@ -227,7 +483,10 @@
   font-size: 24px;
   margin-top: 18px;
 } 
-
+.iconsdivi1 { 
+  max-width: 1536px;
+  margin: 12px auto;
+}
 }
 @media screen and (min-width: 1918px) {
   .main-div { 
@@ -240,7 +499,7 @@
   }
   .a-homediv {
     top: 330px;
-    left: 260px;
+    left: 274px;
   }
   .lampimg { 
     min-height: 864px;
@@ -273,20 +532,16 @@
 }
 
 @media screen and (max-width: 600px) { 
-  .logoimg { 
-    width: 56px;
-    display: flex;
-    justify-content: center;
-  }
-  .logowrapper { 
+
+  /* .logowrapper { 
     margin-top: 14px;
-  }
-  .costumers { 
+  } */
+  /* .costumers { 
     padding-top: 18px;
-  }
-  .logodivi { 
+  } */
+  /* .logodivi { 
     height: 120px;
-  }
+  } */
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) { 
@@ -462,3 +717,8 @@
     font-size: 16px;
   }
 }
+
+
+
+
+

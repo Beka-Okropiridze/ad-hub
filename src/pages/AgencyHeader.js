@@ -7,16 +7,37 @@ import sami from '../assets/103.svg';
 import otxi from '../assets/104.svg';
 import xuti from '../assets/105.svg';
 import eqvsi from '../assets/106.svg';
+import icon1 from '../assets/icon-01.svg';
+import icon2 from '../assets/icon-02.svg';
+import icon3 from '../assets/icon-03.svg';
+import icon4 from '../assets/icon-04.svg';
+import icon5 from '../assets/icon-05.svg';
 import google from '../assets/google.svg';
 import logo from '../assets/logo.svg';
 import { Link } from "react-router-dom";
-import { Footer } from './Footer';
+import { Footer } from '../components/Footer';
 
 export const AgencyHeader = () => {
     return (
 
           <div className="relative">
             <nav className="absolute top-0 left-0 right-0 z-10 border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+
+
+            {/* <div className='relative top-36 left-96 z-20 w-20'>
+                <span className=' w-10 h-8 text-white'>
+                  <img src={icon1} alt='Tube'/>
+                </span>
+                <span className='w-10 h-8 text-white'>
+                  <img src={icon2} alt='Fb' />
+                </span>
+                <span className='w-10 h-8 text-white'>
+                  <img src={icon3} alt='In' />
+                </span>
+                <span></span>
+                <span></span>
+            </div> */}
+
               <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8 main-div">
                 <Link to="/agency" className="flex items-center">
                   <img src={logo} className="h-6 mr-3" alt="Logo" />
