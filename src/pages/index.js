@@ -1,5 +1,4 @@
 export { EnterPage } from './EnterPage';
 export { Academy } from './Academy';
-export { AgencyHeader } from './AgencyHeader';
+export { Agency } from './Agency';
 export { Services } from './Services';
-export { News } from './News';

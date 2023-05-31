@@ -1,5 +1,5 @@
 import { Routes, Route} from 'react-router-dom';
-import { Academy, EnterPage, AgencyHeader, Services, News } from "../pages";
+import { Academy, EnterPage, Agency, Services, } from "../pages";
 
 
 
@@ -10,9 +10,8 @@ export const AllRoutes = () => {
         <Routes>
             <Route path="/" element={ <EnterPage /> } />
             <Route path="/academy" element={ <Academy />} />
-            <Route path="/agency" element={ <AgencyHeader />} />
+            <Route path="/agency" element={ <Agency />} />
             <Route path="/services" element={ <Services /> } />
-            <Route path='/news' element={ <News /> }/>
         </Routes>
     </main>
 

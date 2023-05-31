@@ -6,7 +6,7 @@ export const Footer = () => {
 
     return (
         <footer className=' bg-black h-96 w-full absolute'>
-            <div className=' max-w-screen-xl mx-auto 2xl:max-w-screen-2xl'>
+            <div className='max-w-screen-xl mx-auto lg:px-10 xl:px-0 2xl:max-w-screen-2xl'>
                 <img className='h-6 w-40 relative top-14' src={logo} alt='Logo' />
                 
                 <div className=' relative top-20 mx-auto p-8 flex justify-between'>
