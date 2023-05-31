@@ -54,17 +54,17 @@ export const Agency = () => {
             <div className='flex flex-col items-center w-60 text-center eachDiv'>
               <img className='w-28 mb-8 iconimages img101' src={ori} alt='IconOne' />
               <h4 className='text-white font-medium text-xl mb-5 h4texts'>Branding</h4>
-              <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+              <p className='text-white font-light text-sm ptext'>Body Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
             </div>
             <div className='flex flex-col items-center w-60 text-center eachDiv'>
               <img className='w-28 mb-5 iconimages img102' src={erti} alt='IconOne' />
               <h4 className='text-white font-medium text-xl mb-5 h4texts'>Marketing Strategy</h4>
-              <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+              <p className='text-white font-light text-sm ptext'>Body Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
             </div>
             <div className='flex flex-col items-center w-60 text-center eachDiv'>
               <img className='mb-6 w-24 iconimages img103' src={otxi} alt='IconOne' />
               <h4 className='text-white font-medium text-xl mb-5 h4texts'>Digital Marketing</h4>
-              <p className='text-white font-light text-sm ptext'>Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
+              <p className='text-white font-light text-sm ptext'>Body Comes here Body Text Comes here Body Text Comes here Body Text Comes here Body Text Comes here </p>
             </div>
           </div>
 

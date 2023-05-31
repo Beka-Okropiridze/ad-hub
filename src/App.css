@@ -503,3 +503,59 @@
     font-size: 18px;
   }
 }
+
+/* 
+@media screen and (min-width: 1720px) {
+  .Cover-wrapper { 
+    height: 850px;
+  }
+  .Cover-img { 
+    height: 850px;
+  }
+  .readMore-wrapper { 
+    top: 20px;
+  }
+  .we-strongly { 
+    font-size: 24px;
+  }
+  .ideas-matter { 
+    font-size: 40px;
+  }
+  .readMore-btn { 
+    margin-top: 28px;
+    width: 240px;
+    padding: 2px;
+    font-size: 28px;
+  }
+  .our-costumer { 
+    font-size: 28px;
+  }
+  .logoimg { 
+    width: 112px;
+    display: flex;
+    justify-content: center;
+  }
+  .iconsWrapper { 
+    height: 750px;
+  }
+  .ourServices { 
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .eachDiv { 
+    margin-bottom: 28px;
+  }
+  .iconimages { 
+    width: 78px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .h4texts{ 
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .ptext {
+    font-size: 18px;
+  }
+} */
