@@ -456,7 +456,7 @@
     margin-bottom: 19px;
   }
   .footer-last-sec { 
-    margin-right: 4px;
+    margin-right: 8px;
   }
 }
 
@@ -520,6 +520,9 @@
   .web-design-icon { 
     margin-bottom: 19px;
   }
+  .footer-last-sec { 
+    margin-right: 10px;
+  }
 }
 
 
@@ -529,6 +532,14 @@
   }
   .Cover-img { 
     height: 1080px;
+  }
+  .footer-resp-divi { 
+    width: 1600px;
+    margin: 0 auto;
+  }
+  .header-resp-divi { 
+    width: 1600px;
+    margin: 0 auto;
   }
   .readMore-wrapper { 
     top: 20px;

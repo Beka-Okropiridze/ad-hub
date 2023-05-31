@@ -20,7 +20,7 @@ export const Agency = () => {
       <div className="Cover-wrapper">
         <img className="absolute Cover-img" src={Cover} alt="Cover" />
 
-        <div className="relative">
+        <div className="relative header-resp-divi">
           <Header />
         </div>
 
@@ -87,7 +87,7 @@ export const Agency = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="footer-resp-divi">
         <Footer />
       </div>
 
