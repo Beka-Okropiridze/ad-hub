@@ -63,6 +63,7 @@
   height: 930px;
   background-color: #353535;
 }
+
 @media screen and (max-width: 600px) {
   .Cover-wrapper { 
     height: 756px;
@@ -446,6 +447,12 @@
   .ptext {
     font-size: 16px;
   }
+  .web-dev-icon { 
+    margin-bottom: 26px;
+  }
+  .web-design-icon { 
+    margin-bottom: 19px;
+  }
 }
 
 
@@ -502,36 +509,36 @@
   .ptext {
     font-size: 18px;
   }
+  .web-dev-icon { 
+    margin-bottom: 26px;
+  }
+  .web-design-icon { 
+    margin-bottom: 19px;
+  }
 }
 
-/* 
+
 @media screen and (min-width: 1720px) {
   .Cover-wrapper { 
-    height: 850px;
+    height: 1080px;
   }
   .Cover-img { 
-    height: 850px;
+    height: 1080px;
   }
   .readMore-wrapper { 
     top: 20px;
   }
-  .we-strongly { 
-    font-size: 24px;
-  }
-  .ideas-matter { 
-    font-size: 40px;
-  }
   .readMore-btn { 
-    margin-top: 28px;
+    margin-top: 30px;
     width: 240px;
     padding: 2px;
     font-size: 28px;
   }
   .our-costumer { 
-    font-size: 28px;
+    font-size: 32px;
   }
   .logoimg { 
-    width: 112px;
+    width: 128px;
     display: flex;
     justify-content: center;
   }
@@ -544,18 +551,18 @@
     font-size: 28px;
   }
   .eachDiv { 
-    margin-bottom: 28px;
+    margin-bottom: 32px;
   }
   .iconimages { 
-    width: 78px;
+    width: 96px;
     margin-top: 2px;
     margin-bottom: 10px;
   }
   .h4texts{ 
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 10px;
   }
   .ptext {
-    font-size: 18px;
+    font-size: 19px;
   }
-} */
+}

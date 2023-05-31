@@ -7,7 +7,7 @@ export const Header = () => {
         <div>
 
             <nav className=" dark:bg-gray-900">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:px-10">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:px-10 2xl:max-w-screen-2xl 2xl:px-6 2xl:mx-auto">
                     <a href="/agency" className="flex items-center">
                         <img src={Logo} className="h-6 mr-3 logo" alt="Adhub Logo" />
                     </a>
