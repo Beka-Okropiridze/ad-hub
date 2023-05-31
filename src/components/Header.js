@@ -8,7 +8,7 @@ export const Header = () => {
 
             <nav className=" dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 lg:px-10">
-                    <a href="#" className="flex items-center">
+                    <a href="/agency" className="flex items-center">
                         <img src={Logo} className="h-6 mr-3 logo" alt="Adhub Logo" />
                     </a>
                     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
