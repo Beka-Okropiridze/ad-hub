@@ -538,7 +538,7 @@
     font-size: 28px;
   }
   .iconsWrapper { 
-    height: 750px;
+    height: 850px;
   }
   .our-costumer { 
     font-size: 32px;
@@ -547,9 +547,6 @@
     width: 128px;
     display: flex;
     justify-content: center;
-  }
-  .iconsWrapper { 
-    height: 750px;
   }
   .ourServices { 
     padding-top: 60px;
@@ -572,12 +569,9 @@
     font-size: 19px;
   }
   .web-dev-icon { 
-    margin-bottom: 26px;
+    margin-bottom: 32px;
   }
   .web-design-icon { 
-    margin-bottom: 19px;
-  }
-  .footer-last-sec { 
-    margin-right: 14px;
+    margin-bottom: 24px;
   }
 }
