@@ -388,8 +388,8 @@
   .ptext {
     font-size: 16px;
   }
-  .footer-sec2 { 
-    margin-right: 0px;
+  .footer-last-sec { 
+    margin-right: 14px;
   }
 }
 
@@ -452,6 +452,9 @@
   }
   .web-design-icon { 
     margin-bottom: 19px;
+  }
+  .footer-last-sec { 
+    margin-right: 4px;
   }
 }
 
@@ -534,6 +537,9 @@
     padding: 2px;
     font-size: 28px;
   }
+  .iconsWrapper { 
+    height: 750px;
+  }
   .our-costumer { 
     font-size: 32px;
   }
@@ -564,5 +570,14 @@
   }
   .ptext {
     font-size: 19px;
+  }
+  .web-dev-icon { 
+    margin-bottom: 26px;
+  }
+  .web-design-icon { 
+    margin-bottom: 19px;
+  }
+  .footer-last-sec { 
+    margin-right: 14px;
   }
 }

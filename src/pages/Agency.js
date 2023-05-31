@@ -20,7 +20,7 @@ export const Agency = () => {
       <div className="Cover-wrapper">
         <img className="absolute Cover-img 2xl:w-full" src={Cover} alt="Cover" />
 
-        <div className="relative 2xl:max-w-screen-2xl">
+        <div className="relative 2xl:max-w-screen-2xl 2xl:px-6 2xl:mx-auto">
           <Header />
         </div>
 
