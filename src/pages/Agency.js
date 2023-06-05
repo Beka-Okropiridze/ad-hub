@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import Cover from '../assets/cov.png';
+import CoverMob from '../assets/cov-mobile.png';
 import coca from '../assets/coca.svg';
 import gql from '../assets/gql.svg';
 import google from '../assets/google.svg';
@@ -18,7 +19,7 @@ export const Agency = () => {
     <div>
 
       <div className="Cover-wrapper">
-        <img className="absolute Cover-img" src={Cover} alt="Cover" />
+        <img className="absolute Cover-img" src={Cover} alt="Cover"/>
 
         <div className="relative">
           <Header />
@@ -68,7 +69,7 @@ export const Agency = () => {
             </div>
           </div>
 
-          <div className='flex justify-around mt-16 iconsdivi1 d1'>
+          <div className='flex justify-around mt-16 iconsdivi1 iconsdivi1-2 d1'>
             <div className='flex flex-col items-center w-60 text-center eachDiv'>
               <img className='w-20 mb-7 iconimages img104' src={sami} alt='IconOne' />
               <h4 className='text-white font-medium text-xl mb-5 h4texts'>Copywrighting</h4>
