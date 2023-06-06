@@ -6,7 +6,7 @@ import { useState } from "react";
 export const Header = () => {
 
   const [hidden, setHidden] = useState(true);
-  const [navbarHide, setNavbarHide] = useState(false);
+  const [navbarHide, setNavbarHide] = useState(true);
 
   return (
     <div>
