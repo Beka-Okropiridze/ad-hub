@@ -81,6 +81,10 @@
   .logo { 
     margin-left: 18px;
   }
+  .services-btn { 
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
   .readMore-wrapper { 
     top: 20px;
     margin-left: 19px;
@@ -155,6 +159,10 @@
   }
   .logo { 
     margin-left: 20px;
+  }
+  .services-btn { 
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .readMore-wrapper { 
     top: 20px;
