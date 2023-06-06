@@ -65,7 +65,12 @@
   height: 930px;
   background-color: #353535;
 }
+.textWrapper-aboutUs { 
+  height: 440px;
+  background-color: #353535;
+}
 
+/* Agency page */
 @media screen and (max-width: 600px) {
   .Cover-wrapper { 
     height: 756px;
@@ -606,8 +611,27 @@
 
 
 
+/* About Us Page */
+
+@media screen and (max-width: 768px) { 
+  .textWrapper-aboutUs { 
+    height: 550px;
+  }
+  .about-us-paragraph { 
+    margin: 12px auto;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+  .about-us-paragraph { 
+    font-size: 16px;
+    margin-top: 46px;
+  }
+}
 
 
+/* cover image if want */
 /* @media (max-width: 768px) {
   .Cover-img {
     display: none;

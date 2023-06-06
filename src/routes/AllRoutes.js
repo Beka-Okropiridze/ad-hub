@@ -1,5 +1,5 @@
 import { Routes, Route} from 'react-router-dom';
-import { Academy, EnterPage, Agency, Services, } from "../pages";
+import { Academy, EnterPage, Agency, Services, AboutUs } from "../pages";
 
 
 
@@ -12,6 +12,7 @@ export const AllRoutes = () => {
             <Route path="/academy" element={ <Academy />} />
             <Route path="/agency" element={ <Agency />} />
             <Route path="/services" element={ <Services /> } />
+            <Route path='/aboutus' element={ <AboutUs />}/>
         </Routes>
     </main>
 
