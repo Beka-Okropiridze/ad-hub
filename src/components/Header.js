@@ -11,9 +11,9 @@ export const Header = () => {
 
       <nav className=" dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-start justify-between mx-auto p-4 lg:px-10">
-          <a href="/agency" className="flex pt-4 ">
+          <Link to="/agency" className="flex pt-4 ">
             <img src={Logo} className="h-6 mr-3 logo" alt="Adhub Logo" />
-          </a>
+          </Link>
           <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
             <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
@@ -43,33 +43,33 @@ export const Header = () => {
                 <div id="dropdownNavbar" className="z-10 hidden font-normal bg-white divide-y divide-gray-100 shadow w-44 "> {/* hidden */}
                   <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                     <li>
-                      <a href="#" className="block px-4 py-2">Dashboard</a>
+                      <Link to="/marketing" className="block px-4 py-2">Dashboard</Link>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">Settings</a>
+                      <Link to="/branding" className="block px-4 py-2">Settings</Link>
                     </li>
                     <li>
-                      <a href="#" className="block px-4 py-2">Earnings</a>
+                      <Link to="/design" className="block px-4 py-2">Earnings</Link>
                     </li>
                   </ul>
                   <div className="py-1">
-                    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</a>
+                    <Link to="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign out</Link>
                   </div>
                 </div>
                 ) : (
                 <div id="dropdownNavbar" className=" "> {/* hidden */}
                   <ul className="py-1 text-sm  text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                     <li>
-                      <a href="#" className="text-white px-3 hover:underline decoration-1">Marketing</a>
+                      <Link to="/marketing" className="text-white px-3 hover:underline decoration-1">Marketing</Link>
                     </li>
                     <li className="mt-1">
-                      <a href="#" className="text-white px-3 hover:underline decoration-1">Branding</a>
+                      <Link to="/branding" className="text-white px-3 hover:underline decoration-1">Branding</Link>
                     </li>
                     <li className="mt-1">
-                      <a href="#" className="text-white px-3  hover:underline decoration-1">Design</a>
+                      <Link to="/design" className="text-white px-3  hover:underline decoration-1">Design</Link>
                     </li>
                   <li className="mt-1">
-                    <a href="#" className="text-white px-3 hover:underline decoration-1">Copy</a>
+                    <Link to="/copy" className="text-white px-3 hover:underline decoration-1">Copy</Link>
                   </li>
                   </ul>
                 </div>
