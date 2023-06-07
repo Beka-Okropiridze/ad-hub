@@ -623,11 +623,14 @@
 
 @media screen and (max-width: 768px) { 
   .textWrapper-aboutUs { 
-    height: 580px;
+    height: 816px;
   }
   .about-us-paragraph { 
     margin: 12px auto;
     font-size: 15px;
+  }
+  .about-us-btn { 
+    margin-bottom: 60px;
   }
 }
 
