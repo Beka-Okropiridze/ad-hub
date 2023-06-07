@@ -491,6 +491,9 @@
   .footer-last-sec { 
     margin-right: 8px;
   }
+  .about-us-btn { 
+    margin-bottom: 90px;
+  }
 }
 
 
@@ -556,6 +559,9 @@
   .footer-last-sec { 
     margin-right: 10px;
   }
+  .about-us-btn { 
+    margin-bottom: 90px;
+  }
 }
 
 
@@ -615,6 +621,10 @@
   .footer-last-sec { 
     margin-right: 10px;
   }
+  /* about us */
+  .about-us-btn { 
+    margin-bottom: 90px;
+  }
 }
 
 
@@ -623,7 +633,7 @@
 
 @media screen and (max-width: 768px) { 
   .textWrapper-aboutUs { 
-    height: 736px;
+    height: 708px;
   }
   .about-us-paragraph { 
     margin: 12px auto;
