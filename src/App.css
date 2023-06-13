@@ -665,6 +665,18 @@
     font-size: 18px;
   }
 }
+@media screen and (min-width: 1278px) and (max-width: 1364px) {
+  .branding-div { 
+    left: 0;
+    padding-left: 42px;
+  }
+}
+@media screen and (min-width: 1476px) { 
+  .branding-div { 
+    left: 0;
+    padding-left: 132px;
+  }
+}
 
 /* cover image if want */
 /* @media (max-width: 768px) {

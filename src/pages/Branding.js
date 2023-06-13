@@ -18,7 +18,7 @@ export const Branding = () => {
                     <Header />
                 </div>
 
-                <div className="absolute branding-div top-40 left-32 right-0 flex flex-col max-w-lg ">
+                <div className="absolute branding-div top-40 pl-20 flex flex-col items-start max-w-xl mx-auto ">
                    <span className="text-white font-bold text-6xl text-branding">Branding</span>
                    <span className="text-chven max-w-lg text-white font-light text-md mt-16 pl-1">
                         ჩვენ მზად ვართ შევქნათ თქვენი ბრენდი ნულიდან,
