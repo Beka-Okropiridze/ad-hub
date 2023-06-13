@@ -671,7 +671,13 @@
     padding-left: 42px;
   }
 }
-@media screen and (min-width: 1476px) { 
+@media screen and (min-width: 1438px) {
+  .branding-div { 
+    left: 0;
+    padding-left: 56px;
+  }
+}
+@media screen and (min-width: 1534px) { 
   .branding-div { 
     left: 0;
     padding-left: 132px;
@@ -680,7 +686,7 @@
 @media screen and (min-width: 1916px) { 
   .branding-div { 
     left: 0;
-    padding-left: 332px;
+    padding-left: 336px;
   }
 }
 
