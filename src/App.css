@@ -491,9 +491,6 @@
   .footer-last-sec { 
     margin-right: 8px;
   }
-  .about-us-btn { 
-    margin-bottom: 90px;
-  }
 }
 
 
@@ -651,6 +648,23 @@
   }
 }
 
+/* Branding page */
+
+@media screen and (max-width: 600px) {
+  .branding-div { 
+    left: 0;
+    padding-left: 36px;
+  }
+  .text-branding { 
+    font-size: 40px;
+  }
+  .text-chven { 
+    font-size: 14px;
+  }
+  .text-bullets { 
+    font-size: 18px;
+  }
+}
 
 /* cover image if want */
 /* @media (max-width: 768px) {
