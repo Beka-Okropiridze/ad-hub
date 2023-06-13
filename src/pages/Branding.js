@@ -14,7 +14,7 @@ export const Branding = () => {
 
                 <img className="absolute Cover-img brightness-75" src={CoverBranding} alt="Cover" />
 
-                <div className="relative">
+                <div className="relative z-10">
                     <Header />
                 </div>
 

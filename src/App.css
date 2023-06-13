@@ -86,9 +86,9 @@
     padding-bottom: 8px;
   }
   .readMore-wrapper { 
-    top: 20px;
+    margin-top: 88px;
     margin-left: 19px;
-  }
+   }
   .we-strongly { 
     font-size: 16px;
   }
@@ -675,6 +675,12 @@
   .branding-div { 
     left: 0;
     padding-left: 132px;
+  }
+}
+@media screen and (min-width: 1916px) { 
+  .branding-div { 
+    left: 0;
+    padding-left: 332px;
   }
 }
 
