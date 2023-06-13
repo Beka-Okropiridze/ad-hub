@@ -85,9 +85,10 @@
     padding-top: 8px;
     padding-bottom: 8px;
   }
-  .readMore-wrapper { 
-    margin-top: 88px;
-    margin-left: 19px;
+  .readMore-wrapper {
+    margin-top: 76px;
+    padding-left: 34px;
+
    }
   .we-strongly { 
     font-size: 16px;
@@ -379,6 +380,7 @@
   }
   .readMore-wrapper { 
     top: 20px;
+    padding-left: 42px;
   }
   .we-strongly { 
     font-size: 24px;
@@ -438,6 +440,7 @@
   }
   .readMore-wrapper { 
     top: 20px;
+    padding-left: 74px;
   }
   .we-strongly { 
     font-size: 24px;
@@ -493,6 +496,12 @@
   }
 }
 
+@media screen and (min-width: 1439px) { 
+  .readMore-wrapper { 
+    top: 20px;
+    padding-left: 134px;
+  }
+}
 
 @media screen and (min-width: 1536px) and (max-width: 1720px) {
   .Cover-wrapper { 
@@ -503,6 +512,7 @@
   }
   .readMore-wrapper { 
     top: 20px;
+    padding-left: 166px;
   }
   .we-strongly { 
     font-size: 24px;
@@ -571,6 +581,7 @@
   }
   .readMore-wrapper { 
     top: 20px;
+    padding-left: 356px;
   }
   .readMore-btn { 
     margin-top: 30px;
@@ -686,14 +697,15 @@
 @media screen and (min-width: 1534px) { 
   .branding-div { 
     left: 0;
-    padding-left: 162px;
+    padding-left: 166px;
   }
 }
 @media screen and (min-width: 1916px) { 
   .branding-div { 
-    max-width: 720px;
+    width: 730px;
+    max-width: 730px;
     left: 0;
-    padding-left: 368px;
+    padding-left: 356px;
   }
 }
 
