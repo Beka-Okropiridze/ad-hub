@@ -674,7 +674,7 @@
 @media screen and (min-width: 1438px) {
   .branding-div { 
     left: 0;
-    padding-left: 56px;
+    padding-left: 120px;
   }
 }
 @media screen and (min-width: 1480px) {
@@ -686,13 +686,14 @@
 @media screen and (min-width: 1534px) { 
   .branding-div { 
     left: 0;
-    padding-left: 136px;
+    padding-left: 162px;
   }
 }
 @media screen and (min-width: 1916px) { 
   .branding-div { 
+    max-width: 720px;
     left: 0;
-    padding-left: 336px;
+    padding-left: 368px;
   }
 }
 
