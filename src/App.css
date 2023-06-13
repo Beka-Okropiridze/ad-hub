@@ -677,10 +677,16 @@
     padding-left: 56px;
   }
 }
+@media screen and (min-width: 1480px) {
+  .branding-div { 
+    left: 0;
+    padding-left: 136px;
+  }
+}
 @media screen and (min-width: 1534px) { 
   .branding-div { 
     left: 0;
-    padding-left: 132px;
+    padding-left: 136px;
   }
 }
 @media screen and (min-width: 1916px) { 
