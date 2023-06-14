@@ -502,7 +502,7 @@
     padding-left: 134px;
   }
   .about-us-btn { 
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 }
 
@@ -583,6 +583,7 @@
     height: 1080px;
   }
   .readMore-wrapper { 
+    max-width: 980px;
     width: 980px;
     top: 20px;
     padding-left: 356px;

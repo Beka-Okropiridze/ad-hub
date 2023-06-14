@@ -23,7 +23,7 @@ export const Branding = () => {
                    <span className="text-chven max-w-lg text-white font-light text-md mt-16 pl-1">
                         ჩვენ მზად ვართ შევქნათ თქვენი ბრენდი ნულიდან,
                         კრეატიული სამყაროს ყველაზე საინტერესო და ამაღელვებელი 
-                        პროცესი<br /> სწორედ ბრენდის ნულიდან ნაბიჯ-ნაბიჯ შექმნაა
+                        პროცესი სწორედ ბრენდის <br /> ნულიდან ნაბიჯ-ნაბიჯ შექმნაა
                     </span>
                     <div className="pl-6 bullets">
                         <span className="text-bullets text-white text-xl mt-12 list-item pl-1">ბრენდის იდენტობის შექმნა</span>
