@@ -16,7 +16,7 @@ export const CopyPage = () => {
                 </div>
 
                 <div className="absolute copy-div top-36 pl-20 flex flex-col items-start max-w-4xl mx-auto ">
-                    <span className="text-white font-bold text-6xl text-branding">
+                    <span className="text-white font-bold text-6xl text-branding copyw">
                         Copywrighting
                     </span>
                     <span className="text-chven copy-span max-w-4xl text-white font-light text-md mt-8 pl-1">
