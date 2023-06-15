@@ -7,19 +7,19 @@ import CoverCopy from "../assets/coverCopy.png";
 export const CopyPage = () => {
     return (
         <div>
-            <div className="Cover-wrapper">
+            <div className="Cover-wrapper-copy">
 
-                <img className="absolute Cover-img brightness-75" src={CoverCopy} alt="Cover" />
+                <img className="absolute Copy-img brightness-75" src={CoverCopy} alt="Cover" />
 
                 <div className="relative z-10">
                     <Header />
                 </div>
 
-                <div className="absolute branding-div top-36 pl-20 flex flex-col items-start max-w-4xl mx-auto ">
+                <div className="absolute copy-div top-36 pl-20 flex flex-col items-start max-w-4xl mx-auto ">
                     <span className="text-white font-bold text-6xl text-branding">
                         Copywrighting
                     </span>
-                    <span className="text-chven max-w-4xl text-white font-light text-md mt-8 pl-1">
+                    <span className="text-chven copy-span max-w-4xl text-white font-light text-md mt-8 pl-1">
                         დღეს კომპანიები უკვე თანხმდებიან რომ საჭიროა ყავდეთ ცალკე კადრი ქოფირაითერის
                         პოზიციაზე, ვინც იცის როგორ იმუშაოს სწორად ვებ-გვერდისთვის, როგორ შექმნას ტექსტი
                         ბროშურისთვის, სოციალური მედიისთვის და ა.შ. უფრო მეტიც, ბევრ დიდ კომპანიას თითოეული

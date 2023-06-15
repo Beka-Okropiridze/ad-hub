@@ -55,11 +55,27 @@
 
 .Cover-wrapper { 
   width: 100%;
-  height: 1080;
+  height: 1080px;
+}
+.Cover-wrapper-marketing { 
+  width: 100%;
+  height: 1080px;
 }
 .Cover-img { 
   width: 100%;
-  height: 1080;
+  height: 1080px;
+}
+.Cover-img-marketing { 
+  width: 100%;
+  height: 1080px;
+}
+.Cover-wrapper-copy { 
+  width: 100%;
+  height: 1080px;
+}
+.Copy-img { 
+  width: 100%;
+  height: 1080px;
 }
 .iconsWrapper { 
   height: 930px;
@@ -646,7 +662,10 @@
 
 @media screen and (max-width: 768px) { 
   .textWrapper-aboutUs { 
-    height: 708px;
+    height: 734px;
+  }
+  .text-wrapper-child { 
+    max-width: 320px;
   }
   .about-us-paragraph { 
     margin: 12px auto;
@@ -672,7 +691,7 @@
     padding-left: 36px;
   }
   .brandig-span { 
-    max-width: 350px;
+    max-width: 300px;
   }
   .text-branding { 
     font-size: 40px;
@@ -689,9 +708,27 @@
     left: 0;
     padding-left: 42px;
   }
+  .copy-div { 
+    left: 0;
+    padding-left: 42px;
+  }
+}
+@media screen and (min-width: 1364px) { 
+  .branding-div { 
+    left: 0;
+    padding-left: 76px;
+  }
+  .copy-div { 
+    left: 0;
+    padding-left: 76px;
+  }
 }
 @media screen and (min-width: 1438px) {
   .branding-div { 
+    left: 0;
+    padding-left: 120px;
+  }
+  .copy-div { 
     left: 0;
     padding-left: 120px;
   }
@@ -701,9 +738,17 @@
     left: 0;
     padding-left: 136px;
   }
+  .copy-div { 
+    left: 0;
+    padding-left: 136px;
+  }
 }
 @media screen and (min-width: 1534px) { 
   .branding-div { 
+    left: 0;
+    padding-left: 166px;
+  }
+  .copy-div { 
     left: 0;
     padding-left: 166px;
   }
@@ -715,25 +760,48 @@
     left: 0;
     padding-left: 356px;
   }
+  .copy-div { 
+    width: 730px;
+    max-width: 730px;
+    left: 0;
+    padding-left: 356px;
+  }
 }
 
 /* Marketing Page */
 
 @media screen and (max-width: 600px) { 
   .text-marketing { 
-    max-width: 351px;
+    max-width: 300px;
     margin-right: auto;
   }
   .bullets { 
-    max-width: 351px;
+    max-width: 300px;
   }
   .Cover-wrapper-marketing { 
     width: 100%;
-    height: 1046px;
+    height: 1066px;
   }
   .Cover-img-marketing { 
     width: 100%;
-    height: 1046px;
+    height: 1066px;
+  }
+}
+
+/* Copywriting Page */
+
+@media screen and (max-width: 600px) { 
+  .Cover-wrapper-copy { 
+    width: 100%;
+    height: 960px;
+  }
+  .Copy-img { 
+    width: 100%;
+    height: 960px;
+  }
+  .copy-div { 
+    max-width: 340px;
+    padding-left: 38px;
   }
 }
 

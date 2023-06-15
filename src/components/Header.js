@@ -65,6 +65,9 @@ export const Header = () => {
                     <Link to="/design" className="text-white px-3  hover:underline decoration-1">Design</Link>
                   </li>
                 <li className="mt-1">
+                  <Link to="/media" className="text-white px-3 hover:underline decoration-1">Media</Link>
+                </li>
+                <li className="mt-1">
                   <Link to="/copy" className="text-white px-3 hover:underline decoration-1">Copy</Link>
                 </li>
                 </ul>
@@ -143,6 +146,9 @@ export const Header = () => {
                     </li>
                     <li className="mt-1">
                       <Link to="/design" className="text-white px-3  hover:underline decoration-1">Design</Link>
+                    </li>
+                    <li className="mt-1">
+                      <Link to="/media" className="text-white px-3 hover:underline decoration-1">Media</Link>
                     </li>
                   <li className="mt-1">
                     <Link to="/copy" className="text-white px-3 hover:underline decoration-1">Copy</Link>
