@@ -6,9 +6,9 @@ import CoverMarketing from '../assets/coverMarketing.png';
 export const MarketingPage = () => {
     return (
         <div>
-            <div className="Cover-wrapper">
+            <div className="Cover-wrapper-marketing">
 
-                <img className="absolute Cover-img brightness-75" src={CoverMarketing} alt="Cover" />
+                <img className="absolute Cover-img-marketing brightness-75" src={CoverMarketing} alt="Cover" />
 
                 <div className="relative z-10">
                     <Header />
@@ -22,7 +22,7 @@ export const MarketingPage = () => {
                         Strategy & Plan
                     </span>
                     
-                    <span className="text-chven max-w-4xl text-white font-light text-md mt-8 pl-1">
+                    <span className="text-chven text-marketing max-w-4xl text-white font-light text-md mt-8 pl-1">
                         იმისთვის რომ კამპანია წარმატებული იყოს, ყველა ბრენდს სჭირდება გაწერილი სტრატეგია, ხედვა, სამოქმედო ნაბიჯები,
                         დრო - რა დროშიც უნდა განახორციელოს ეს ქმედებები,
                         შედეგი- რა შედეგია მისთვის წარმატებული კამპანიის საზომი. 

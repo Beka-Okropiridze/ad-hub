@@ -653,7 +653,7 @@
     font-size: 15px;
   }
   .about-us-btn { 
-    margin-bottom: 120px;
+    margin-bottom: 70px;
   }
 }
 
@@ -670,6 +670,9 @@
   .branding-div { 
     left: 0;
     padding-left: 36px;
+  }
+  .brandig-span { 
+    max-width: 350px;
   }
   .text-branding { 
     font-size: 40px;
@@ -711,6 +714,26 @@
     max-width: 730px;
     left: 0;
     padding-left: 356px;
+  }
+}
+
+/* Marketing Page */
+
+@media screen and (max-width: 600px) { 
+  .text-marketing { 
+    max-width: 351px;
+    margin-right: auto;
+  }
+  .bullets { 
+    max-width: 351px;
+  }
+  .Cover-wrapper-marketing { 
+    width: 100%;
+    height: 1046px;
+  }
+  .Cover-img-marketing { 
+    width: 100%;
+    height: 1046px;
   }
 }
 
