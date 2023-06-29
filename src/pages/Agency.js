@@ -1,6 +1,6 @@
 import { Header } from "../components/Header";
 import Cover from '../assets/cov.png';
-// import CoverMob from '../assets/cov-mobile.png';
+import CoverMob from '../assets/mob-cover.png';
 import coca from '../assets/coca.svg';
 import gql from '../assets/gql.svg';
 import google from '../assets/google.svg';
@@ -20,6 +20,7 @@ export const Agency = () => {
 
       <div className="Cover-wrapper">
         <img className="absolute Cover-img" src={Cover} alt="Cover"/>
+        <img className="absolute Cover-img-mobile" src={CoverMob} alt="Cover"/>
 
         <div className="relative">
           <Header />

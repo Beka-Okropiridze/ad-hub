@@ -85,13 +85,20 @@
   height: 440px;
   background-color: #353535;
 }
-
+.Cover-img-mobile { 
+  display: none;
+}
 /* Agency page */
 @media screen and (max-width: 600px) {
   .Cover-wrapper { 
     height: 756px;
   }
   .Cover-img { 
+    /* height: 756px; */
+    display: none;
+  }
+  .Cover-img-mobile { 
+    display: block;
     height: 756px;
   }
   .logo { 
