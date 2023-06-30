@@ -9,9 +9,9 @@ import phoneicon from "../assets/phoneicon.svg";
 export const Contact = () => {
   return (
     <div>
-      <div className="Cover-wrapper-ContacUs">
+      <div className="Cover-wrapper-marketing Cover-wrapper-ContacUs">
 
-        <img className="absolute Cover-img-ContactUs brightness-75" src={ContactCover} alt="Cover" />
+        <img className="absolute Cover-img-marketing brightness-75" src={ContactCover} alt="Cover" />
         <img className="absolute Coverimg-ContactUs-mobile brightness-75" src={ContactCoverMob} alt="Cover" />
 
         <div className="relative z-10">

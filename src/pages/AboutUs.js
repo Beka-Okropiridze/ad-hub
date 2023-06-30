@@ -8,9 +8,9 @@ export const AboutUs = () => {
   return (
     <div>
 
-      <div className="Cover-wrapper-abouUs">
+      <div className="Cover-wrapper Cover-wrapper-abouUs">
 
-        <img className="absolute Cover-img brightness-75" src={CoverAboutUs} alt="Cover" />
+        <img className="absolute Cover-img Cover-wrapper-abouUs brightness-75" src={CoverAboutUs} alt="Cover" />
         <img className="absolute Cover-aboutUs-mobile brightness-75" src={CoverAboutMobile} alt="Cover" />
 
         <div className="relative">

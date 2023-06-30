@@ -34,7 +34,7 @@ export const Agency = () => {
       </div>
 
       <div className="bg-black h-52">
-        <p className=" text-white our-costumer text-center font-extralight text-2xl pt-8">Our Costumers</p>
+        <p className=" text-white our-costumer text-center font-extralight text-2xl pt-6">Our Costumers</p>
         <div className="flex justify-around items-center mt-12 ">
           <span>
             <img className='logoimg' src={coca} alt='Coca-Cola' />

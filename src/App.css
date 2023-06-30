@@ -718,7 +718,7 @@
 @media screen and (max-width: 600px) {
   .Coverbranding-img-mobile { 
     display: block;
-    height: 756px;
+    height: 932px;
   }
   .Cover-wrapper-ContacUs { 
     height: 916px;
@@ -823,10 +823,10 @@
   .bullets { 
     max-width: 300px;
   }
-  .Cover-wrapper-marketing { 
+  /* .Cover-wrapper-marketing { 
     width: 100%;
     height: 2012px;
-  }
+  } */
   .Cover-img-marketing { 
     display: none;
     /* width: 100%;
@@ -835,16 +835,16 @@
   .Cover-img-marketing-mobile { 
     display: block;
     width: 100%;
-    height: 2012px;
+    height: 1080px;
   }
   .Coverimg-marketing-mobile { 
     display: block;
     width: 100%;
-    height: 2012px;
+    height: 1080px;
   }
   .Coverimg-Media-mobile { 
     display: block;
-    height: 2012px;
+    height: 1080px;
   }
 
 }
