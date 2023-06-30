@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import designCover from '../assets/coverdesign.png'
+import designCover from '../assets/coverdesign.png';
+import CoverDesignMobile from '../assets/mob-desing.png';
 
 
 export const DesignPage = () => {
@@ -10,6 +11,7 @@ export const DesignPage = () => {
             <div className="Cover-wrapper-marketing">
 
                 <img className="absolute Cover-img-marketing brightness-75" src={designCover} alt="Cover" />
+                <img className="absolute Coverimg-marketing-mobile brightness-75" src={CoverDesignMobile} alt="Cover" />
 
                 <div className="relative z-10">
                     <Header />

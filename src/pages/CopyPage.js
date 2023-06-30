@@ -2,6 +2,7 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import CoverCopy from "../assets/coverCopy.png";
+import CoverCopyMobile from "../assets/mob-copy.png";
 
 
 export const CopyPage = () => {
@@ -10,6 +11,7 @@ export const CopyPage = () => {
             <div className="Cover-wrapper-copy">
 
                 <img className="absolute Copy-img brightness-75" src={CoverCopy} alt="Cover" />
+                <img className="absolute Copy-img-mobile brightness-75" src={CoverCopyMobile} alt="Cover" />
 
                 <div className="relative z-10">
                     <Header />

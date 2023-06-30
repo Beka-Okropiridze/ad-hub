@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import ContactCover from '../assets/coverContactus.png';
+import ContactCoverMob from '../assets/mob-contactus.png';
 import emailicon from "../assets/emailicon.svg";
 import phoneicon from "../assets/phoneicon.svg";
 
@@ -11,6 +12,7 @@ export const Contact = () => {
       <div className="Cover-wrapper-marketing">
 
         <img className="absolute Cover-img-marketing brightness-75" src={ContactCover} alt="Cover" />
+        <img className="absolute Coverimg-ContactUs-mobile brightness-75" src={ContactCoverMob} alt="Cover" />
 
         <div className="relative z-10">
           <Header />
@@ -29,7 +31,7 @@ export const Contact = () => {
           </span>
 
           <span className="text-chven text-marketing max-w-2xl text-white font-light text-2xl mt-8 pl-1 flex items-center">
-            <div className="w-7 h-8 mr-4">
+            <div className="w-7 h-8 mr-5">
               <img src={phoneicon} alt="icon" />
             </div>
             +995 551 21 28 22
@@ -42,4 +44,4 @@ export const Contact = () => {
       <Footer />
     </div>
   )
-}
+};

@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import CoverBranding from "../assets/brandingCov.png";
+import CoverBrandingMobile from "../assets/mob-branding.png";
 
 
 export const Branding = () => {
@@ -13,6 +14,7 @@ export const Branding = () => {
             <div className="Cover-wrapper">
 
                 <img className="absolute Cover-img brightness-75" src={CoverBranding} alt="Cover" />
+                <img className="absolute Coverbranding-img-mobile brightness-75" src={CoverBrandingMobile} alt="Cover" />
 
                 <div className="relative z-10">
                     <Header />

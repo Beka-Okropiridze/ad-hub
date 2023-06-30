@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import coverMedia from "../assets/covermedia.png"
+import coverMedia from "../assets/covermedia.png";
+import coverMediaMobile from "../assets/mob-media.png";
 
 export const MediaPage = () => {
     return (
@@ -9,6 +10,7 @@ export const MediaPage = () => {
             <div className="Cover-wrapper-marketing">
 
                 <img className="absolute Cover-img-marketing brightness-75" src={coverMedia} alt="Cover" />
+                <img className="absolute Coverimg-Media-mobile brightness-75" src={coverMediaMobile} alt="Cover" />
 
                 <div className="relative z-10">
                     <Header />
