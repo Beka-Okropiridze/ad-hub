@@ -817,7 +817,7 @@
   }
   .Cover-wrapper-marketing { 
     width: 100%;
-    height: 1086px;
+    height: 1098px;
   }
   .Cover-img-marketing { 
     display: none;
@@ -827,21 +827,21 @@
   .Cover-img-marketing-mobile { 
     display: block;
     width: 100%;
-    height: 1086px;
+    height: 1098px;
   }
   .Coverimg-marketing-mobile { 
     display: block;
     width: 100%;
-    height: 1086px;
+    height: 1098px;
   }
   .Coverimg-Media-mobile { 
     display: block;
-    height: 1086px;
+    height: 1098px;
   }
   .Coverimg-ContactUs-mobile { 
     display: block;
     width: 100%;
-    height: 1086px;
+    height: 1098px;
   }
 }
 
@@ -850,7 +850,7 @@
 @media screen and (max-width: 600px) { 
   .Cover-wrapper-copy { 
     width: 100%;
-    height: 960px;
+    height: 986px;
   }
   .Copy-img { 
     display: none;
@@ -860,7 +860,7 @@
   .Copy-img-mobile { 
     display: block;
     width: 100%;
-    height: 960px;
+    height: 986px;
   }
   .copy-div { 
     max-width: 330px;

@@ -25,7 +25,7 @@ export const AboutUs = () => {
 
       <div className="textWrapper-aboutUs">
         <div className="text-wrapper-child max-w-screen-lg mx-auto p-7">
-          <p className="text-white text-xl font-light text-center mt-16 about-us-paragraph">
+          <p className="text-white text-xl font-light text-center mt-14 about-us-paragraph">
             ედჰაბი წარმოადგენს ,,FULL SERVICE” კრეატიულ სააგენტოს. ჩვენ გვჯერა, რომ ყველაფერი იწყება იდეით.
             ნებისმიერ კომპანიას შეუძლია შექმნას საინტერესო კამპანია, რომელის გამოიწვევს საზოგადოების ინტერესსა
             და ჩართულობას,მაგრამ მხოლოდ განსაკუთრებული იდეის მქონე კამპანიები რჩება ადამიანების გონებაში 
