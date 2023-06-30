@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <div>
 
-      <nav className=" dark:bg-gray-900">
+      <nav>
         <div className="max-w-screen-xl flex flex-wrap items-start justify-between mx-auto p-4 lg:px-10">
           <Link to="/agency" className="flex pt-4 ">
             <img src={Logo} className="h-6 mr-3 logo" alt="Adhub Logo" />

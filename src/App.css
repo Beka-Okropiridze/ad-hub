@@ -112,7 +112,7 @@
 /* Agency page */
 @media screen and (max-width: 600px) {
   .Cover-wrapper { 
-    height: 756px;
+    height: 932px;
   }
   .Cover-img { 
     /* height: 756px; */
@@ -120,7 +120,7 @@
   }
   .Cover-img-mobile { 
     display: block;
-    height: 756px;
+    height: 932px;
   }
   .logo { 
     margin-left: 18px;
@@ -867,7 +867,7 @@
     padding-left: 38px;
   }
   .copyw { 
-    font-size: 40px;
+    font-size: 32px;
   }
 };
 
