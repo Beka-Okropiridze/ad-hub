@@ -5,7 +5,7 @@ import logo from '../assets/logo.svg';
 export const Footer = () => {
 
     return (
-        <footer className=' bg-black h-96 w-full absolute'>
+        <footer className=' bg-black w-full absolute'>
             <div className='max-w-screen-xl mx-auto lg:px-6 '>
                 <img className='h-6 w-40 relative top-14' src={logo} alt='Logo' />
 
