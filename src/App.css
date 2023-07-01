@@ -130,7 +130,7 @@
     padding-bottom: 8px;
   }
   .readMore-wrapper {
-    margin-top: 76px;
+    top: 20px;
     padding-left: 34px;
 
    }
@@ -347,7 +347,7 @@
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1278px) {
   .Cover-wrapper { 
     height: 768px;
   }
@@ -416,7 +416,7 @@
 
 
 
-@media screen and (min-width: 1280px) and (max-width: 1366px) {
+@media screen and (min-width: 1278px) and (max-width: 1365px) {
   .Cover-wrapper { 
     height: 768px;
   }
@@ -476,7 +476,7 @@
 }
 
 
-@media screen and (min-width: 1366px) and (max-width: 1536px) {
+@media screen and (min-width: 1365px) and (max-width: 1439px) {
   .Cover-wrapper { 
     height: 850px;
   }
@@ -541,13 +541,33 @@
   }
 }
 
-@media screen and (min-width: 1439px) { 
+@media screen and (min-width: 1439px) and (max-width: 1479px) { 
   .readMore-wrapper { 
     top: 20px;
-    padding-left: 134px;
+    padding-left: 114px;
   }
   .about-us-btn { 
     margin-bottom: 40px;
+  }
+  .logoimg { 
+    width: 128px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1479px) and (max-width: 1536px) { 
+  .readMore-wrapper { 
+    top: 20px;
+    padding-left: 135px;
+  }
+  .about-us-btn { 
+    margin-bottom: 40px;
+  }
+  .logoimg { 
+    width: 156px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -577,7 +597,7 @@
   .our-costumer { 
     font-size: 28px;
   }
-  .logoimg { 
+  .img { 
     width: 112px;
     display: flex;
     justify-content: center;
@@ -751,41 +771,41 @@
 @media screen and (min-width: 1278px) and (max-width: 1364px) {
   .branding-div { 
     left: 0;
-    padding-left: 42px;
+    padding-left: 40px;
   }
   .copy-div { 
     left: 0;
-    padding-left: 42px;
+    padding-left: 40px;
   }
 }
 @media screen and (min-width: 1364px) { 
   .branding-div { 
     left: 0;
-    padding-left: 76px;
+    padding-left: 75px;
   }
   .copy-div { 
     left: 0;
-    padding-left: 76px;
+    padding-left: 75px;
   }
 }
 @media screen and (min-width: 1438px) {
   .branding-div { 
     left: 0;
-    padding-left: 120px;
+    padding-left: 114px;
   }
   .copy-div { 
     left: 0;
-    padding-left: 120px;
+    padding-left: 114px;
   }
 }
 @media screen and (min-width: 1480px) {
   .branding-div { 
     left: 0;
-    padding-left: 136px;
+    padding-left: 135px;
   }
   .copy-div { 
     left: 0;
-    padding-left: 136px;
+    padding-left: 135px;
   }
 }
 @media screen and (min-width: 1534px) { 

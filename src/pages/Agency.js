@@ -22,7 +22,7 @@ export const Agency = () => {
         <img className="absolute Cover-img" src={Cover} alt="Cover"/>
         <img className="absolute Cover-img-mobile" src={CoverMob} alt="Cover"/>
 
-        <div className="relative">
+        <div className="relative z-20">
           <Header />
         </div>
 
@@ -35,7 +35,7 @@ export const Agency = () => {
 
       <div className="bg-black h-52">
         <p className=" text-white our-costumer text-center font-extralight text-2xl pt-6">Our Costumers</p>
-        <div className="flex justify-around items-center mt-12 ">
+        <div className="flex justify-around items-center mt-10 ">
           <span>
             <img className='logoimg' src={coca} alt='Coca-Cola' />
           </span>

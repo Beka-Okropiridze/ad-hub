@@ -39,7 +39,6 @@ export const MarketingPage = () => {
                         <span className="text-bullets text-white text-xl mt-3 list-item pl-1">მოკლევადიანი და გრძელვადიანი მიზნები</span>
                         <span className="text-bullets text-white text-xl mt-3 list-item pl-1">ბაზრის კვლევა, კონკურენტების ანალიზი</span>
                         <span className="text-bullets text-white text-xl mt-3 list-item pl-1">მარკეტინგული ტაქტიკური გეგმა/ბიუჯეტირება</span>
-                        <span className="text-bullets text-white text-xl mt-3 list-item pl-1">კონტროლის მექანიზმები და შეფასების ინდიკატორები</span>
                     </div>
                 </div>
 
